@@ -29,3 +29,4 @@ $plugin->version   = 2012042900; // The current module version (Date: YYYYMMDDXX
 $plugin->requires  = 2011070100; // Requires this Moodle version
 $plugin->component = 'theme_aardvark'; // Full name of the plugin (used for diagnostics)
 $plugin->maturity  = MATURITY_STABLE;
+$plugin->release   = '2.2 Blackbird';
