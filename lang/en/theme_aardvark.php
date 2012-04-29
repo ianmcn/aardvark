@@ -4,7 +4,7 @@ $string['region-side-post'] = 'Right';
 $string['region-side-pre'] = 'Left';
 $string['choosereadme'] = '<div class="clearfix"><div class="theme_screenshot">
 
-<h2>Aardvark 2.1</h2>
+<h2>Aardvark 2.2</h2>
 <img src="aardvark/pix/screenshot.jpg" />
 
 <h2>About</h2>
