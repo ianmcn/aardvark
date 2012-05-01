@@ -53,8 +53,15 @@ echo $OUTPUT->doctype() ?>
 <a href="<?php echo $CFG->wwwroot; ?>" class="homeiconlink">
 
 	<?php if ($haslogo) {
-                        echo html_writer::link(new moodle_url('/'), "<img src='".$PAGE->theme->settings->logo."' alt='logo' />");
-                    } else { ?>
+		
+		
+		?>
+                    
+                    <img src="<?php echo $PAGE->theme->settings->logo;?>" />
+                    
+             <?php       } 
+             
+                     else { ?>
                     
                     <img src="<?php echo $OUTPUT->pix_url('logo', 'theme')?>" />
                     
@@ -70,11 +77,11 @@ echo $OUTPUT->doctype() ?>
 	}
 	elseif ($hascustommenu) { ?>
  					<div id="menuitemswrap"><div id="custommenu"><?php echo $custommenu; ?></div></div>
+
 				<?php } ?>
                 <?php include('profileblock.php')
 				?>
 </div></div>
-
 
 		
 <div id="page-header"></div>

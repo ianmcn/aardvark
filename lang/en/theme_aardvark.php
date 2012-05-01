@@ -78,7 +78,7 @@ $string['backcolor'] = 'Background Colour';
 $string['backcolordesc'] = 'Change the colour of the background. (This is the area either side of the main content and does not affect the main content area)';
 
 $string['logo'] = 'Logo';
-$string['logodesc'] = 'Change the logo of this theme by entering the URL to a new one (i.e., http://www.somesite/logo.png). As a reference, the default logo is 272px by 72px. A transparent .png will work best.';
+$string['logodesc'] = 'Change the logo of this theme by entering the URL to a new one (i.e., http://www.somesite/logo.png). There is currently a max width of 200px. As a reference, the default logo is 113px by 43px. A transparent .png will work best.';
 
 $string['menubackcolor'] = 'Menu Background Colour';
 $string['menubackcolordesc'] = 'Change the colour of the menu bar.';
