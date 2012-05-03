@@ -62,7 +62,7 @@ echo '</div>'; // end of headerwrap
 </div>
 <div class="profilebar" id="profilebar" style="display: none;">
 	<div class="profilebar_block">
-        <h4>Block TBC</h4>
+        <h4></h4>
 		
 	
 	</div>
