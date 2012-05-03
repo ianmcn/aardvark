@@ -73,7 +73,7 @@ echo $OUTPUT->doctype() ?>
 </div>
 	<?php 
 	
-	if (!isloggedin() or isguestuser()) {
+	if (!isloggedin()) {
 	}
 	elseif ($hascustommenu) { ?>
  					<div id="menuitemswrap"><div id="custommenu"><?php echo $custommenu; ?></div></div>
