@@ -644,7 +644,7 @@ width:30px;
 }
 
 div.dockeditem_container div.dockeditem {
-background:url([[pix:theme|mbar]]) repeat-y;
+background:#fff;
 border:none;
 color:#666;
 font:100% Constantia, Lucidabright, Lucida, Georgia, serif;
