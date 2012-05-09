@@ -1250,3 +1250,10 @@ overflow:hidden;
 width:30%;
 padding:10px;
 }
+
+#page-mod-quiz-edit div.quizcontents {
+clear: left;
+display: block;
+float: left;
+width: 68%;
+}
