@@ -782,7 +782,7 @@ padding:5px;
 
 .generaltable .header a,.forumheaderlist .header a,th.header.questionnametext a {
 border:none;
-color:#fff !important;
+color:#333;
 font-size:12px;
 text-decoration:none;
 padding:5px;
