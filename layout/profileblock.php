@@ -84,7 +84,7 @@ echo '</div>'; // end of headerwrap
             			<a href="<?php echo $CFG->wwwroot; ?>/user/profile.php"><li><img src="<?php echo $OUTPUT->pix_url('profile/profile', 'theme')?>" />&nbsp;<?php echo get_string('viewprofile');?></li></a>
                         <a href="<?php echo $CFG->wwwroot; ?>/user/editadvanced.php"><li><img src="<?php echo $OUTPUT->pix_url('profile/editprofile', 'theme')?>" />&nbsp;<?php echo get_string('editmyprofile');?></li></a>
 
-            			<a href="<?php echo $CFG->wwwroot; ?>/user/filesedit.php"><li><img src="<?php echo $OUTPUT->pix_url('profile/myfiles', 'theme')?>" />&nbsp;<?php echo get_string('myfiles');?></li></a>
+            			<a href="<?php echo $CFG->wwwroot; ?>/user/files.php"><li><img src="<?php echo $OUTPUT->pix_url('profile/myfiles', 'theme')?>" />&nbsp;<?php echo get_string('myfiles');?></li></a>
 
 			</ul></td>
 			<td valign="top"><ul>
