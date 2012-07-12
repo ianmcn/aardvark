@@ -21,7 +21,7 @@ $THEME->parents = array('base','canvas');
 ////////////////////////////////////////////////////
 
 
-$THEME->sheets = array('core', 'autohide');
+$THEME->sheets = array('core');
 
 ////////////////////////////////////////////////////
 // Name of the stylesheet(s) you've including in
