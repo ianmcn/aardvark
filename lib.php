@@ -9,6 +9,14 @@ function aardvark_process_css($css, $theme) {
        $width = null;
     }
     $css = aardvark_set_width($css,$width);
+	
+	// Set the gap
+    if (!empty($theme->settings->gap)) {
+       $gap = $theme->settings->gap;
+    } else {
+       $gap = null;
+    }
+    $css = aardvark_set_gap($css,$gap);
 
     // Set the menu background color
     if (!empty($theme->settings->menubackcolor)) {
@@ -80,6 +88,21 @@ function aardvark_set_width($css, $width) {
     return $css;
 }
 
+function aardvark_set_gap($css, $width) {
+    $tag = '[[setting:gap]]';
+    $replacement = $width;
+    if (is_null($replacement)) {
+        $replacement = '70';
+    }
+    if ( $width == "70" ) {
+		$css = str_replace($tag, $replacement.'px', $css);
+	}
+	if ( $replacement == "45" ) {
+		$css = str_replace($tag, $replacement.'px', $css);
+	}
+    return $css;
+}
+
 
 function aardvark_set_menubackcolor($css, $menubackcolor) {
     $tag = '[[setting:menubackcolor]]';
@@ -106,7 +129,7 @@ function aardvark_set_backimage($css, $backimage) {
 	$tag = '[[setting:backimage]]';
 	$replacement = $backimage;
 	if (is_null($replacement)) {
- 		$replacement = $OUTPUT->pix_url('graphics/fish', 'theme');
+ 		$replacement = $OUTPUT->pix_url('graphics/default', 'theme');
  	}
 	$css = str_replace($tag, $replacement, $css);
 	return $css;

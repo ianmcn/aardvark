@@ -38,6 +38,23 @@ background:transparent;
 height:0;
 }
 
+#page-title {
+background:#fff;
+width:100%;
+overflow:hidden;
+}
+
+#page-title-inner {
+font-size:22px;
+text-transform:uppercase;
+font-weight:400;
+color:#333;
+padding:8px 0 0 6px;
+background:#fff;
+width:100%;
+overflow:hidden;
+}
+
 #logowrap {
 height:80px;
 float:left;
@@ -158,14 +175,22 @@ margin:0 !important;
 
 #profilebar {
 background:url([[pix:theme|profile/black95]]);
-margin-right:auto;
-margin-left:auto;
-width:[[setting:width]];
+width:100%;
 clear:both;
 font-size:12px;
 font-weight:200;
 color:#fff;
 position:relative;
+}
+
+#profilebar table{
+background-color:transparent !important;
+}
+
+#profilebar_inner {
+margin-right:auto;
+margin-left:auto;
+width:[[setting:width]];
 }
 
 #profilebar h4 {
@@ -208,6 +233,11 @@ border:none;
 border-style:none;
 }
 
+.profilebar_block_inner {
+overflow:hidden;
+padding:10px;
+}
+
 .profilebar_block,.profilebar_events,.profilebar_account {
 float:left;
 min-height:160px;
@@ -222,6 +252,7 @@ width:250px;
 .profilebar_account {
 width:398px;
 }
+
 
 #profileoptions ul li {
 padding-left:0;
@@ -251,7 +282,7 @@ width:[[setting:width]];
 margin-left:auto;
 margin-right:auto;
 margin-bottom:15px;
-top:45px;
+top:[[setting:gap]];
 clear:both;
 float:none;
 position:relative;
@@ -287,12 +318,13 @@ width:100%;
 margin-left:auto;
 margin-right:auto;
 clear:both;
-background:#eee;
+background:#fff;
 height:35px;
+border-bottom:#eee 1px solid;
 }
 
 div.jcontrolsleft {
-margin-left:15px;
+margin-left:0px;
 font-weight:600;
 font-size:13px;
 float:left;
@@ -327,7 +359,7 @@ margin:5px 0 0;
 #footerwrapper {
 background:#eee repeat-x left top;
 width:[[setting:width]];
-margin:45px auto 10px;
+margin:[[setting:gap]] auto 10px;
 }
 
 #footerinner {
@@ -500,12 +532,13 @@ height:45px;
 width:100%;
 clear:both;
 background:[[setting:menubackcolor]] url([[pix:theme|menu/menugrad]]) repeat-x;
-box-shadow:0 0 5px #000;
-position:fixed;
+box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
 top:0;
-z-index:1000;
+z-index:9998;
 margin:0;
+position: fixed;
 }
+
 
 #menuwrap960 {
 height:45px;
@@ -598,7 +631,7 @@ div.yui3-menu.custom_menu_submenu {
 background:url([[pix:theme|menu/yuiarrow]]) no-repeat 20px 0 !important;
 border:none;
 min-width:100px;
-z-index:99998;
+z-index:9998;
 }
 
 div.yui3-menu.custom_menu_submenu div.yui3-menu.custom_menu_submenu {
@@ -607,7 +640,7 @@ min-width:100px;
 }
 
 div.yui3-menu.custom_menu_submenu div.yui3-menu-content {
-z-index:99999;
+z-index:9998;
 min-width:200px;
 padding-top:0 !important;
 padding-bottom:0 !important;
@@ -699,6 +732,7 @@ h3.sectionname,h2.headingblock,h2.main,h3.main,h2.main a,h3.main a,div.loginpane
 font-size:18px;
 text-transform:uppercase;
 text-align:left;
+padding-top:0px;
 padding-bottom:2px;
 display:block;
 font-weight:400;
@@ -1110,6 +1144,10 @@ border:1px solid #ccc48d;
 background:#fff9d0;
 }
 
+#page-content #region-main-box .region-content {
+padding: 0;
+}
+
 .region-content img {
 max-width:540px;
 height:auto;
@@ -1257,3 +1295,4 @@ display: block;
 float: left;
 width: 68%;
 }
+

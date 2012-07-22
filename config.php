@@ -62,9 +62,10 @@ $THEME->layouts = array(
         'regions' => array('side-pre', 'side-post'),
         'defaultregion' => 'side-pre',
     ),
-    'incourse' => array(
-        'file' => 'general.php',
-        'regions' => array(),
+	'incourse' => array(
+	'file' => 'general.php',
+	'regions' => array('side-post'),
+	'defaultregion' => 'side-post',
     ),
     'frontpage' => array(
         'file' => 'general.php',

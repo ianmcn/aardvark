@@ -12,7 +12,7 @@ $hascustommenu = (empty($PAGE->layout_options['nocustommenu']) && !empty($custom
 $haslogo = (!empty($PAGE->theme->settings->logo));
 $hasdisclaimer = (!empty($PAGE->theme->settings->disclaimer));
 $hasemailurl = (!empty($PAGE->theme->settings->emailurl));
-
+$hasprofilebarcustom = (!empty($PAGE->theme->settings->profilebarcustom));
 $hasfacebook = (!empty($PAGE->theme->settings->facebook));
 $hastwitter = (!empty($PAGE->theme->settings->twitter));
 $hasgoogleplus = (!empty($PAGE->theme->settings->googleplus));
@@ -43,10 +43,10 @@ echo $OUTPUT->doctype() ?>
     <title><?php echo $PAGE->title ?></title>
     <link rel="shortcut icon" href="<?php echo $OUTPUT->pix_url('favicon', 'theme')?>" />
     <?php echo $OUTPUT->standard_head_html() ?>
+    
 </head>
 <body id="<?php p($PAGE->bodyid) ?>" class="<?php p($PAGE->bodyclasses.' '.join(' ', $bodyclasses)) ?>">
 <?php echo $OUTPUT->standard_top_of_body_html() ?>
-
 <div id="menuwrap">
 <div id="menuwrap960">
 <div id="homeicon">
@@ -89,6 +89,8 @@ echo $OUTPUT->doctype() ?>
 <div id="contentwrapper">	
 	<!-- start OF moodle CONTENT -->        
 		
+<div id="page-title"><div id="page-title-inner"><?php echo $PAGE->title ?>
+</div></div>
 
 <div id="jcontrols_button">
 				<div class="jcontrolsleft">		
@@ -105,8 +107,6 @@ echo $OUTPUT->doctype() ?>
 						
 	
 </div>	
-
-
 
 				<div id="page-content">
         			<div id="region-main-box">

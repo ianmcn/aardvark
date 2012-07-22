@@ -2,61 +2,7 @@
 $string['pluginname'] = 'Aardvark';
 $string['region-side-post'] = 'Right';
 $string['region-side-pre'] = 'Left';
-$string['choosereadme'] = '<div class="clearfix"><div class="theme_screenshot">
-
-<h2>Aardvark 2.2</h2>
-<img src="aardvark/pix/screenshot.jpg" />
-
-<h2>About</h2>
-<p>Aardvark is a three column fixed-width theme for Moodle 2.1+ originally created by Shaun Daubney for <a href="http://www.newbury-college.ac.uk">Newbury College</a> with help from Mary Evans.</p>
-
-<h2>Tweaks</h2>
-<p>If you want to modify this theme, we recommend that you first duplicate it, then rename it before making your changes. This will prevent your customised theme from being overwritten by future Moodle upgrades, and you\'ll still have the original files if you make a mess. More information on modifying themes can be found in the <a href="http://docs.moodle.org/en/Theme">MoodleDocs</a>.</p>
-
-<h2>Credits</h2>
-<table width="550" border="0" cellpadding="4">
-  <tr>
-    <td width="100"><img src="http://moodle.org/pluginfile.php/78598/user/icon/f1" alt="Shaun Daubney" style="width:100px !important; height:100px !important;" /></td>
-    <td width="150"><p><strong><a href="http://moodle.org/user/profile.php?id=299683">Shaun Daubney</a></strong><br />
-    Theme creator and original development.</p></td>
-    <td width="5">&nbsp;</td>
-    <td width="100"><img src="http://moodle.org/pluginfile.php/632/user/icon/f1" alt="Martin Dougiamas" style="width:100px !important; height:100px !important;" /></td>
-    <td width="150"><p><strong><a href="http://moodle.org/user/profile.php?id=1">Martin Dougiamas</a></strong><br />
-      Founder and lead developer of Moodle VLE platform.</p></td>
-  </tr>
-  <tr>
-    <td width="100"><img src="http://www.gravatar.com/avatar/fa47dc71d12895ce6ee12711fd8736aa?s=100&amp;d=http%3A//moodle.org/theme/image.php?theme=moodleofficial&amp;image=u/f1&amp;rev=669" alt="Mary Evans" style="width:100px !important; height:100px !important;" /></td>
-    <td width="150"><p><strong><a href="http://moodle.org/user/profile.php?id=713800">Mary Evans</a></strong><br />
-    Additional theme PHP programming and debugging.</p></td>
-    <td width="5">&nbsp;</td>
-    <td width="100"><img src="http://images.ibsrv.net/ibsrv/res/src:www.bargainist.com/get/deals/images/2009/10/Fat.Cow.1.jpg" alt="FatCow Hosting" style="width:100px !important; height:100px !important;" /></td>
-    <td width="150"><p><a href="http://www.fatcow.com/free-icons"><strong>FatCow Hosting</strong></a><br />
-    Theme icons<br />
-    <a href="http://www.komodomedia.com"><strong>Komodo Media</strong></a><br />
-    Social icons
-    <br />
-    </p></td>
-  </tr>
-  <tr>
-    <td width="100"><img src="http://moodle.org/pluginfile.php/167049/user/icon/f1" alt="Richard Oelmann" style="width:100px !important; height:100px !important;" /></td>
-    <td width="150"><p><strong><a href="http://moodle.org/user/profile.php?id=480148">Richard Oelmann</a></strong><br />
-    Advanced \'Profile Bar\' programming (Upcoming Events).</p></td>
-    <td width="5">&nbsp;</td>
-    <td width="100"><img src="http://moodle.org/pluginfile.php/1805/user/icon/f1" alt="James Cracknell" style="width:100px !important; height:100px !important;" /></td>
-    <td width="150"><p><strong><a href="http://moodle.org/user/profile.php?id=101573">James Cracknell</a></strong><br />
-    Theme production server testing.</p></td>
-  </tr>
-    <tr>
-    <td width="100"><img src="http://moodle.org/pluginfile.php/662/user/icon/moodleofficial/f1" alt="Richard Oelmann" style="width:100px !important; height:100px !important;" /></td>
-    <td width="150"><p><strong><a href="http://moodle.org/user/profile.php?id=39680">Julian Ridden</a></strong><br />
-    Autohide feature from Rocket theme.</p></td>
-    <td width="5">&nbsp;</td>
-    <td width="100">&nbsp;</td>
-    <td width="150"><p>&nbsp;</p></td>
-  </tr>
-</table>
-<p>With special thanks to Richard Elwell.</p>
-</div></div>';
+$string['choosereadme'] = 'Aardvark is a three column fixed-width theme for Moodle 2.1+ originally created by Shaun Daubney for <a href="http://www.newbury-college.ac.uk">Newbury College</a>';
 
 $string['configtitle'] = 'aardvark theme';
 
@@ -64,6 +10,11 @@ $string['width'] = 'Width';
 $string['widthdesc'] = 'Choose whether your site is displayed as a fixed with of 960px or a fluid width of 100%.';
 $string['fixedwidth'] = 'Fixed Width (Recommended)';
 $string['variablewidth'] = 'Fluid Width (Experimental)';
+
+$string['gap'] = 'Mind the Gap';
+$string['gapdesc'] = 'Choose whether your site has a gap between the menu bar and the page contents.';
+$string['yesgap'] = 'Yes';
+$string['nogap'] = 'No';
 
 $string['backimage'] = 'Background Image';
 $string['backimagedesc'] = 'Change the background image in the graphic wrap. It\'s currently a goldfish, but if that\'s making you a bit seasick then paste the URL of the image you want to use in here.';
@@ -95,6 +46,12 @@ $string['copyrightdesc'] = 'The name of your organisation.';
 $string['email'] = 'Email';
 $string['emailurl'] = 'Email URL';
 $string['emailurldesc'] = 'Enter the URL of your email service. (i.e http://mail.mycollege.ac.uk or http://www.mycollege.edu/mail)';
+
+$string['profilebarcustomtitle'] = 'Profile Bar Custom Block Title';
+$string['profilebarcustomtitledesc'] = 'Title for custom Profile Bar block';
+
+$string['profilebarcustom'] = 'Profile Bar Custom Block';
+$string['profilebarcustomdesc'] = 'Add text, images or HTML to be displayed within the Profile Bar.';
 
 $string['facebook'] = 'Facebook URL';
 $string['facebookdesc'] = 'Enter the URL of your Facebook page. (i.e http://www.facebook.com/mycollege)';

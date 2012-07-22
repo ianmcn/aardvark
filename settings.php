@@ -14,6 +14,15 @@ $choices = array(960=>get_string('fixedwidth','theme_aardvark'), 97=>get_string(
 $setting = new admin_setting_configselect($name, $title, $description, $default, $choices);
 $settings->add($setting);
 
+// Gap Toggle
+$name = 'theme_aardvark/gap';
+$title = get_string('gap','theme_aardvark');
+$description = get_string('gapdesc', 'theme_aardvark');
+$default = 70;
+$choices = array(70=>get_string('yesgap','theme_aardvark'), 45=>get_string('nogap','theme_aardvark'));
+$setting = new admin_setting_configselect($name, $title, $description, $default, $choices);
+$settings->add($setting);
+
 // Graphic Wrap (Background Image)
 $name = 'theme_aardvark/backimage';
 $title=get_string('backimage','theme_aardvark');
@@ -64,6 +73,24 @@ $previewconfig = NULL;
 $setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
 $settings->add($setting);
 
+// Profilebar custom block title setting
+
+$name = 'theme_aardvark/profilebarcustomtitle';
+$title = get_string('profilebarcustomtitle','theme_aardvark');
+$description = get_string('profilebarcustomtitledesc', 'theme_aardvark');
+$default = '';
+$setting = new admin_setting_configtext($name, $title, $description, $default);
+$settings->add($setting);
+
+// Profilebar custom block setting
+
+$name = 'theme_aardvark/profilebarcustom';
+$title = get_string('profilebarcustom','theme_aardvark');
+$description = get_string('profilebarcustomdesc', 'theme_aardvark');
+$default = '';
+$setting = new admin_setting_confightmleditor($name, $title, $description, $default);
+$settings->add($setting);
+	
 // Email url setting
 
 $name = 'theme_aardvark/emailurl';

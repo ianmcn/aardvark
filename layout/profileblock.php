@@ -61,9 +61,18 @@ echo '</div>'; // end of headerwrap
 ?>
 </div>
 <div class="profilebar" id="profilebar" style="display: none;">
-	<div class="profilebar_block">
-        <h4></h4>
-		
+	<div id="profilebar_inner">
+    <div class="profilebar_block">
+          <h4><?php
+if ($hasprofilebarcustom) {
+    echo $PAGE->theme->settings->profilebarcustomtitle;
+} ?></h4>
+          <div class="profilebar_block_inner">
+    <?php
+if ($hasprofilebarcustom) {
+    echo $PAGE->theme->settings->profilebarcustom;
+} ?>
+		</div>
 	
 	</div>
 
@@ -98,7 +107,8 @@ echo '</div>'; // end of headerwrap
 		</div>
 	</div>
         <div class="profilebarclear">
-        </div>
+        </div></div>
+        
 
 
 <?php }?>
