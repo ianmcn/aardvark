@@ -4,8 +4,7 @@ echo date("Y"); echo " "; echo $PAGE->theme->settings->copyright; ?></h4>
 		<?php
             echo $OUTPUT->login_info();			
 			echo $OUTPUT->standard_footer_html();
-            ?>     
-	
+            if ($hasceop) {?><ul><li><a href="<?php echo $PAGE->theme->settings->ceop;?> "><img src="<?php echo $OUTPUT->pix_url('ceopreport', 'theme')?>" /></a></li></ul> <?php } else {}?> 
 	</div>
 
 	<div class="footer_block">

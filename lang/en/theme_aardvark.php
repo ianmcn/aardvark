@@ -43,6 +43,13 @@ $string['disclaimerdesc'] = 'The content from this textarea will be displayed in
 $string['copyright'] = 'Copyright';
 $string['copyrightdesc'] = 'The name of your organisation.';
 
+$string['ceop'] = 'CEOP';
+$string['ceopdesc'] = 'Enable CEOP reporting.';
+$string['ceopnone'] = 'Disabled';
+$string['ceopaus'] = 'Enable Australia';
+$string['ceopuk'] = 'Enable United Kingdom';
+
+
 $string['email'] = 'Email';
 $string['emailurl'] = 'Email URL';
 $string['emailurldesc'] = 'Enter the URL of your email service. (i.e http://mail.mycollege.ac.uk or http://www.mycollege.edu/mail)';

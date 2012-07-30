@@ -10,6 +10,7 @@ $showsidepost = $hassidepost && !$PAGE->blocks->region_completely_docked('side-p
 $custommenu = $OUTPUT->custom_menu();
 $hascustommenu = (empty($PAGE->layout_options['nocustommenu']) && !empty($custommenu));
 $haslogo = (!empty($PAGE->theme->settings->logo));
+$hasceop = (!empty($PAGE->theme->settings->ceop));
 $hasdisclaimer = (!empty($PAGE->theme->settings->disclaimer));
 $hasemailurl = (!empty($PAGE->theme->settings->emailurl));
 $hasprofilebarcustom = (!empty($PAGE->theme->settings->profilebarcustom));

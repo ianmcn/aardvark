@@ -1,9 +1,13 @@
 html,body {
-font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: Verdana, Geneva, sans-serif !important;
 background:[[setting:backcolor]] url([[setting:backimage]]) center top [[setting:backposition]] !important;
 color:#333;
 margin:0;
 padding:0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
+font-family: Verdana, Geneva, sans-serif;
 }
 
 html a:hover,body a:hover {
@@ -446,12 +450,10 @@ top:6px;
 .block div.content {
 font-size:12px;
 font-weight:200;
-padding:10px 15px 15px;
+padding: 5px 2px;
 }
 
-#region-post .block div.content {
-padding-left:20px;
-}
+
 
 .block_calendar_month table.minicalendar {
 margin-bottom:0 !important;
@@ -500,7 +502,7 @@ font-size:13px;
 color:#333;
 font-weight:800;
 background:none;
-font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: Verdana, Geneva, sans-serif;
 }
 
 div.yui3-widget.yui3-overlay.yui3-widget-positioned {
@@ -1173,6 +1175,18 @@ width:95%;
 
 .headermenu {
 display:none;
+}
+
+.footer_block ul {
+margin-left:0;
+}
+
+.footer_block ul li {
+padding-left:0;
+padding-right:0;
+list-style-type:none;
+margin-right:0;
+display:inline;
 }
 
 #footersocial ul {

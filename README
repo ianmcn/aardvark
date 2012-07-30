@@ -6,6 +6,7 @@ UPDATES
 
 CORE
 - Bye bye fishy
+- Font changed to Verdana
 - Autohide disabled
 - Optional gap between profile bar and content
 - New icon for "Edit String"
@@ -13,6 +14,12 @@ CORE
 PROFILE BAR / HEADER
 - Add custom content to Profile Bar from Aardvark settings 
 - Updated "My Files" URL
+
+BLOCKS
+- Padding reduced to (5px 2px)
+
+FOOTER
+- CEOP Button available for UK and Australia
 
 KNOWN ISSUES
 -----------------------

@@ -109,6 +109,15 @@ $default = '';
 $setting = new admin_setting_configtext($name, $title, $description, $default);
 $settings->add($setting);
 
+// CEOP
+$name = 'theme_aardvark/ceop';
+$title = get_string('ceop','theme_aardvark');
+$description = get_string('ceopdesc', 'theme_aardvark');
+$default = '';
+$choices = array(''=>get_string('ceopnone','theme_aardvark'), 'http://www.thinkuknow.org.au/site/report.asp'=>get_string('ceopaus','theme_aardvark'), 'http://www.ceop.police.uk/report-abuse/'=>get_string('ceopuk','theme_aardvark'));
+$setting = new admin_setting_configselect($name, $title, $description, $default, $choices);
+$settings->add($setting);
+
 // Disclaimer setting
 $name = 'theme_aardvark/disclaimer';
 $title = get_string('disclaimer','theme_aardvark');
