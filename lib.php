@@ -129,7 +129,7 @@ function aardvark_set_backimage($css, $backimage) {
 	$tag = '[[setting:backimage]]';
 	$replacement = $backimage;
 	if (is_null($replacement)) {
- 		$replacement = $OUTPUT->pix_url('graphics/default', 'theme');
+ 		$replacement = $OUTPUT->pix_url('blank', 'theme');
  	}
 	$css = str_replace($tag, $replacement, $css);
 	return $css;

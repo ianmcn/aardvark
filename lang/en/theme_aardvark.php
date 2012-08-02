@@ -17,7 +17,7 @@ $string['yesgap'] = 'Yes';
 $string['nogap'] = 'No';
 
 $string['backimage'] = 'Background Image';
-$string['backimagedesc'] = 'Change the background image in the graphic wrap. It\'s currently a goldfish, but if that\'s making you a bit seasick then paste the URL of the image you want to use in here.';
+$string['backimagedesc'] = 'Change the background image in the graphic wrap. It\'s currently a cloud blue blur, but if that\'s making you a bit light headed then paste the URL of the image you want to use in here or clear it for a blank background.';
 
 $string['backposition'] = 'Background Image Position';
 $string['backpositiondesc'] = 'Choose between a centred image or a tiled image.';

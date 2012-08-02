@@ -27,6 +27,7 @@ $settings->add($setting);
 $name = 'theme_aardvark/backimage';
 $title=get_string('backimage','theme_aardvark');
 $description = get_string('backimagedesc', 'theme_aardvark');
+$default = 'aardvark/pix/graphics/default.jpg';
 $setting = new admin_setting_configtext($name, $title, $description, '', PARAM_URL);
 $settings->add($setting);
 

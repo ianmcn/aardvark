@@ -11,7 +11,6 @@ font-family: Verdana, Geneva, sans-serif;
 }
 
 html a:hover,body a:hover {
-text-decoration:underline;
 color:[[setting:menuhovercolor]];
 }
 
@@ -362,14 +361,15 @@ margin:5px 0 0;
 
 #footerwrapper {
 background:#eee repeat-x left top;
-width:[[setting:width]];
+width:100%;
 margin:[[setting:gap]] auto 10px;
+border-top:1px solid #ccc;
 }
 
 #footerinner {
+width:[[setting:width]];
 margin-left:auto;
 margin-right:auto;
-border-top:1px solid #ccc;
 color:#999;
 height:150px;
 font-size:10px;
@@ -453,7 +453,9 @@ font-weight:200;
 padding: 5px 2px;
 }
 
-
+.block_settings .block_tree .tree_item {
+margin:8px !important;
+}
 
 .block_calendar_month table.minicalendar {
 margin-bottom:0 !important;
@@ -730,7 +732,7 @@ padding-top:0;
 position:relative;
 }
 
-h3.sectionname,h2.headingblock,h2.main,h3.main,h2.main a,h3.main a,div.loginpanel h2,div.signuppanel h2 {
+h3.sectionname,h3.section-title,h2.headingblock,h2.main,h3.main,h2.main a,h3.main a,div.loginpanel h2,div.signuppanel h2 {
 font-size:18px;
 text-transform:uppercase;
 text-align:left;
@@ -741,7 +743,7 @@ font-weight:400;
 margin:3px 0 2px;
 }
 
-#page-course-info h2.main,h3.sectionname,h2.main a,h3.main a,div.loginpanel h2,div.signuppanel h2,div.hd h3.main {
+#page-course-info h2.main,h3.sectionname,h3.section-title,h2.main a,h3.main a,div.loginpanel h2,div.signuppanel h2,div.hd h3.main {
 font-size:16px;
 background:none;
 }
@@ -874,19 +876,12 @@ border:none !important;
 margin-top:0;
 }
 
-td.category.name a {
-padding-left:20px;
-font-weight:400;
-font-size:16px;
-}
-
-#course-index td.category.name a {
-padding-left:0;
-background-image:none;
-}
-
-table.categorylist td {
-padding:0;
+div.category {
+font-size:14px !important;
+text-transform:uppercase;
+text-align:left;
+display:block;
+font-weight:400 !important;
 }
 
 div.course_category_tree a {

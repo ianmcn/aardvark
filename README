@@ -5,11 +5,13 @@ UPDATES
 -----------------------
 
 CORE
-- Bye bye fishy
+- Bye bye fishy. Default background is a bluey blur
+- Removing the default from Background Image now creates a blank background
 - Font changed to Verdana
 - Autohide disabled
 - Optional gap between profile bar and content
 - New icon for "Edit String"
+- Underline removed from links
 
 PROFILE BAR / HEADER
 - Add custom content to Profile Bar from Aardvark settings 
@@ -17,8 +19,14 @@ PROFILE BAR / HEADER
 
 BLOCKS
 - Padding reduced to (5px 2px)
+- Margin between tree menu items improved
+
+COURSE PAGES
+- Added style for new "section per page" headers
+- Replaced legacy td code with div code for Course Category styles
 
 FOOTER
+- Footerwrap extended to 100% for Fixed width
 - CEOP Button available for UK and Australia
 
 KNOWN ISSUES
