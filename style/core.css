@@ -362,7 +362,7 @@ margin:5px 0 0;
 #footerwrapper {
 background:#eee repeat-x left top;
 width:100%;
-margin:[[setting:gap]] auto 10px;
+margin:[[setting:gap]] auto 0px;
 border-top:1px solid #ccc;
 }
 
