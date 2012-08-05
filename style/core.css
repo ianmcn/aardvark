@@ -810,12 +810,17 @@ color:#333;
 div.notifysuccess {
 width:80%;
 font-size:15px;
-color:#008500;
+text-transform:uppercase;
+color:#478900;
 border:3px solid #dadada;
 text-align:center;
 background:#fff url([[pix:theme|check]]) no-repeat 2% 50%;
 margin:0 auto;
 padding:5px;
+}
+
+#page-admin-index .notifysuccess {
+font-weight: 400 !important;
 }
 
 .generaltable .header a,.forumheaderlist .header a,th.header.questionnametext a {
@@ -1305,3 +1310,14 @@ float: left;
 width: 68%;
 }
 
+.course-content .single-section .section-navigation .title {
+text-transform:uppercase;
+}
+
+.course-content .single-section .section-navigation .mdl-left {
+text-transform:uppercase;
+}
+
+.course-content .single-section .section-navigation .mdl-right {
+text-transform:uppercase;
+}
