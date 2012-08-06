@@ -1312,12 +1312,27 @@ width: 68%;
 
 .course-content .single-section .section-navigation .title {
 text-transform:uppercase;
+-o-text-overflow: ellipsis;   /* Opera */
+text-overflow:    ellipsis;   /* IE, Safari (WebKit) */
+overflow:hidden;              /* don't show excess chars */
+white-space:nowrap;           /* force single line */
+width: 250px;                 /* fixed width */
 }
 
 .course-content .single-section .section-navigation .mdl-left {
 text-transform:uppercase;
+-o-text-overflow: ellipsis;   /* Opera */
+text-overflow:    ellipsis;   /* IE, Safari (WebKit) */
+overflow:hidden;              /* don't show excess chars */
+white-space:nowrap;           /* force single line */
+width: 125px;                 /* fixed width */
 }
 
 .course-content .single-section .section-navigation .mdl-right {
 text-transform:uppercase;
+-o-text-overflow: ellipsis;   /* Opera */
+text-overflow:    ellipsis;   /* IE, Safari (WebKit) */
+overflow:hidden;              /* don't show excess chars */
+white-space:nowrap;           /* force single line */
+width: 125px;                 /* fixed width */
 }
