@@ -18,6 +18,10 @@ html a,body a,html a:visited,body a:visited {
 color:#333;
 }
 
+#region-post a, #mainpadder a {
+    color: #A0414D;
+}
+
 td.maincalendar table.calendartable th,table.rolecap .header,.generaltable .header,.forumheaderlist .header,.files .header,.editcourse .header,.logtable .header,#attempts .header,table#categoryquestions th {
 background:#f9f9f9 !important;
 font-size:11px;
