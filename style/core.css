@@ -15,11 +15,12 @@ color:[[setting:menuhovercolor]];
 }
 
 html a,body a,html a:visited,body a:visited {
-color:#333;
+color:#369;
 }
 
-#region-post a, #mainpadder a {
-    color: #A0414D;
+/* Ensures the main navigation block links remain grey, not blue*/
+html body .block_navigation a, html body .block_navigation {
+color: #333;
 }
 
 td.maincalendar table.calendartable th,table.rolecap .header,.generaltable .header,.forumheaderlist .header,.files .header,.editcourse .header,.logtable .header,#attempts .header,table#categoryquestions th {
