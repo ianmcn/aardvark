@@ -49,7 +49,7 @@ window.onload = function() {
     var arrInputs = document.getElementsByTagName("input");
     for (var i = 0; i < arrInputs.length; i++) {
         var curInput = arrInputs[i];
-        if (!curInput.type || curInput.type == "" || curInput.type == "text")
+        if (!curInput.type || curInput.type == "" || curInput.type == "text" curInput.type == "password" )
             HandlePlaceholder(curInput);
     }
 };
